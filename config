@@ -7,7 +7,7 @@ imgcache = /usr/local/smokeping/cache
 imgurl   = cache
 datadir  = /usr/local/smokeping/data
 piddir  = /usr/local/smokeping/var
-cgiurl   = http://113.219.201.173/smokeping.cgi
+cgiurl   = smokeping.cgi
 smokemail = /usr/local/smokeping/etc/smokemail.dist
 tmail = /usr/local/smokeping/etc/tmail.dist
 # specify this to get syslog logging
