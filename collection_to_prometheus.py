@@ -54,7 +54,7 @@ paras = {
         'wy008'      : '杭州BGP-223.252.192.1'
     } , 
     'LOG_FILE' : '/usr/local/smokeping/smoking_pushgateway.log' , 
-    'prometheus_gateway' : 'http://113.219.201.173:9091' , 
+    'prometheus_gateway' : 'http://localhost:9091' , 
     'data_dir' : '/usr/local/smokeping/data'
 }
 
