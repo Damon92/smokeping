@@ -20,8 +20,7 @@ RUN cp -rf smokeping/collection_to_prometheus.py /usr/local/smokeping/
 RUN cp -rf smokeping/location /usr/local/smokeping/etc/
 RUN cp -rf smokeping/config /usr/local/smokeping/etc/
 RUN curl -s https://packagecloud.io/install/repositories/prometheus-rpm/release/script.rpm.sh | bash
-RUN yum -y install prometheus
-RUN yum -y install pushgateway
+RUN yum -y install prometheus pushgateway
 RUN yum -y install https://dl.grafana.com/oss/release/grafana-7.3.6-1.x86_64.rpm 
 RUN cp -rf smokeping/prometheus.yml /etc/prometheus/
 EXPOSE 3000 9090
