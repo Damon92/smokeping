@@ -1,7 +1,7 @@
 From centos:7.4.1708
 MAINTAINER Damon.Dai daikaiguo@rayvision.com
 RUN yum -y install epel-release
-RUN (yum install git vixie-cron crontabs wget fping gcc make python-pip python-rrdtool rrdtool perl-rrdtool openssl openssl-devel -y ;\
+RUN (yum install git python-requests crontabs wget fping gcc make python-pip python-rrdtool rrdtool perl-rrdtool openssl openssl-devel -y ;\
      yum install perl-Sys-Syslog perl-Module-CoreList perl-ExtUtils-Manifest \
                  perl-Digest-MD5 perl-IPC-Cmd -y ;\
      yum install perl-CPAN perl-Sys-Syslog perl-Module-CoreList perl-CGI \
