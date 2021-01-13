@@ -168,3 +168,4 @@ remark = Smokeping 网络质量监控系统
 @include /usr/local/smokeping/etc/location/unicom
 @include /usr/local/smokeping/etc/location/cmcc
 @include /usr/local/smokeping/etc/location/wy
+@include /usr/local/smokeping/etc/location/HNDQ
