@@ -1,2 +1,5 @@
 echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 yum -y install git docker && systemctl  enable docker && systemctl start docker && git clone https://github.com/Damon92/smokeping.git && docker build -t smokeping-2.7.11:v1 smokeping/
+docker run -d -it -p 3000:3000 -p 9090:9090  --privileged=true smokeping-2.7.11:v1  /usr/sbin/init
+docker exec -it `docker ps | grep smokeping | awk '{print $1}'` /bin/bash
+sh smokeping/start.sh
