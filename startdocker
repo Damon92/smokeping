@@ -1,0 +1,3 @@
+docker run -d -it -p 3000:3000 -p 9090:9090  --privileged=true smokeping-2.7.11:v1  /usr/sbin/init
+docker ps 
+docker exce -it 6b49a865b45a /bin/bash
