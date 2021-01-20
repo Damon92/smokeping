@@ -127,7 +127,8 @@ def getMonitorData(rrd_file):
 
 
 if __name__ == '__main__':
-    ISP_list = ['TELCOM' , 'WY' , 'HNDQ']
+#    ISP_list = ['TELCOM' , 'WY' , 'HNDQ']
+    ISP_list = ['TELCOM' , 'UNICOM' , 'CMCC' ,'WY' , 'HNDQ']
     for ISP in ISP_list:
         rrd_data_dir = os.path.join(paras["data_dir"], ISP)
         for filename in os.listdir(rrd_data_dir):
