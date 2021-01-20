@@ -4,8 +4,8 @@ title = 移动
 
 ++ beijing
 menu = 北京
-title = 39.137.71.1
-host = 39.137.71.1
+title = 202.80.195.182
+host = 202.80.195.182
 
 ++ tianjin
 menu = 天津
@@ -94,8 +94,8 @@ host = 39.134.253.1
 
 ++ guangdong
 menu = 广东
-title = 39.135.62.1
-host = 39.135.62.1
+title = 120.241.48.6
+host = 120.241.48.6
 
 ++ guangxi
 menu = 广西
